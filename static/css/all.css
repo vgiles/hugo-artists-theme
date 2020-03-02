@@ -41,7 +41,7 @@ h1 {
   margin: .67em 0; }
 
 mark {
-  background: rgb(50, 197, 241); /* Header and footer background? */
+  background: rgb(50, 197, 241); 
   color: #000; }
 
 small {
@@ -1213,7 +1213,7 @@ footer {
 .bar {
   width: 250px;
   height: 0px;
-  border-top: 4px solid #c99065;
+  border-top: 4px solid #ff5e5e80;
   margin: 0px auto 50px; }
 
 .biglink {
