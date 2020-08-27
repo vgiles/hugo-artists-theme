@@ -619,7 +619,7 @@ header {
     float: left;
     margin: 10px 0 0 30px; }
     header .logo path {
-      fill: rgba(0, 0, 0, 0.4); }
+      fill: rgba(0, 0, 0, 1); }
   header nav {
     float: right;
     padding: 30px 30px 0 0; }
