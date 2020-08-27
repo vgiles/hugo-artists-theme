@@ -605,13 +605,13 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
 
 header, footer {
   background-repeat: no-repeat, no-repeat;
-  background-size: 50px 50px, cover;
+  background-size: 50px 50px, contain;
   background-position: 30px 50px, 50% 50%;
   background-blend-mode: overlay, normal; }
 
 header {
   background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/fc_hero2.png), url(../img/logo.svg);
+  background-image: url(../img/logo.svg), url(../img/fc_hero2.png);
   padding-bottom: 50px; }
   header .logo {
     height: 50px;
@@ -619,7 +619,7 @@ header {
     float: left;
     margin: 10px 0 0 30px; }
     header .logo path {
-      fill: rgba(0, 0, 0, 1); }
+      fill: rgba(0, 0, 0, 0.4); }
   header nav {
     float: right;
     padding: 30px 30px 0 0; }
@@ -659,7 +659,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/fc_hero2.png), url(../img/logo.svg); }
+  background-image: url(../img/logo.svg), url(../img/fc_hero2.png); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
