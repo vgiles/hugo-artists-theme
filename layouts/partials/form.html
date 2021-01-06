@@ -1,7 +1,7 @@
 {{ "<!-- Form section -->" | safeHTML }}
 <section>
     {{ with .Site.Params.form.title }}<h3 id="form-title">{{ . }}</h3>{{ end }}
-    <form method="POST" action="https://formspree.io/f/mqkgwavr" {{ . }}{{ end }}>
+    <form action="https://formspree.io/f/mqkgwavr" method="POST"> {{ . }}{{ end }}
         <fieldset class="contact-info-group">
             {{ with .Site.Params.form.name }}<label><span>{{ . }}</span>{{ end }}
                 <input type="text" name="name">
