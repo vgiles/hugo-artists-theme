@@ -567,11 +567,11 @@ body {
 /* Basic Styles
  * ------------------------------------	 */
 body {
-  background: #ddd;
+  background: rgb(72, 66, 66);
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
-  color: #666;
+  color: rgb(115, 110, 110);
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -614,8 +614,8 @@ header {
   background-image: url(../img/logo.svg), url(../img/fc_hero2.png);
   padding-bottom: 50px; }
   header .logo {
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     float: left;
     margin: 10px 0 0 30px; }
     header .logo path {
