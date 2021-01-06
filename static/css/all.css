@@ -610,12 +610,12 @@ header, footer {
   background-blend-mode: normal, normal; }
 
 header {
-  background-position: 30px 20px, 100% 100%;
+  background-position: 30px 20px, 50% 50%;
   background-image: url(../img/logo.svg), url(../img/fc_hero2.png);
   padding-bottom: 50px; }
   header .logo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     float: left;
     margin: 10px 0 0 30px; }
     header .logo path {
